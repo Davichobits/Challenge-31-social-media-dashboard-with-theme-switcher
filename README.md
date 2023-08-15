@@ -1,8 +1,36 @@
-# React + Vite
+## Reto 31 - Social media dashboard with theme switcher using React and Tailwind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Design preview for the Social media dashboard with theme switcher coding challenge](./design/desktop-preview.jpg)
 
-Currently, two official plugins are available:
+## También puedes seguirme en mis redes sociales:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+✅YouTube: https://www.youtube.com/CodingTube
+
+✅TikTok: https://www.tiktok.com/@codingtube
+
+✅WEB: https://coding-tube.com/
+
+✅Twitter: https://twitter.com/CodingTube
+
+✅Discord: https://discord.gg/tasEBrh8Zw
+
+✅Twitch: https://www.twitch.tv/codingtube
+
+✅Facebook: https://www.facebook.com/groups/codingtubers
+
+►CURSOS:
+
+📕HTML5: https://bit.ly/CodingHTML01
+
+📘CSS3: https://bit.ly/CodingCSS01
+
+📙Javascript: http://bit.ly/CodingJS01
+
+📔 Tailwind: http://bit.ly/Tailwind01
+
+►LISTAS DE REPRODUCCIÓN RECOMENDADAS:
+
+📒Etiquetas HTML: https://bit.ly/HTMLShorts
+
+📗Todos los retos frontend: https://bit.ly/CodingRetos
