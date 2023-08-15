@@ -1,0 +1,86 @@
+{
+  "overview": [
+    {
+      "network": "facebook",
+      "user": "@nathanf",
+      "followers": "1987",
+      "today": 12,
+      "isUp": true
+    },
+    {
+      "network": "twitter",
+      "user": "@nathanf",
+      "followers": "1044",
+      "today": 99,
+      "isUp": true
+    },
+    {
+      "network": "instagram",
+      "user": "@realnathanf",
+      "followers": "10k",
+      "today": 1099,
+      "isUp": true
+    },
+    {
+      "network": "youtube",
+      "user": "Nathan F.",
+      "followers": "8239",
+      "today": 144,
+      "isUp": false
+    }
+  ],
+  "overview-today": [
+    {
+      "network": "facebook",
+      "page-Views": {
+        "views": "87",
+        "porcentage": 3,
+        "isUp": true
+      },
+      "likes": {
+        "number": 52,
+        "porcentage": 3,
+        "isUp": true
+      }
+    },
+    {
+      "network": "instagram",
+      "likes": {
+        "number": 5462,
+        "porcentage": 2257,
+        "isUp": true
+      },
+      "profile-views": {
+        "views": "52k",
+        "porcentage": 1375,
+        "isUp": true
+      }
+    },
+    {
+      "network": "twitter",
+      "retweets": {
+        "number": "117",
+        "porcentage": 303,
+        "isUp": true
+      },
+      "likes": {
+        "number": 507,
+        "porcentage": 553,
+        "isUp": true
+      }
+    },
+    {
+      "network": "youtube",
+      "likes": {
+        "number": 107,
+        "porcentage": 19,
+        "isUp": false
+      },
+      "total-views": {
+        "number": "1407",
+        "porcentage": 12,
+        "isUp": false
+      }
+    }
+  ]
+}
