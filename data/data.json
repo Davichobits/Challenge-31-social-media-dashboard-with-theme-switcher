@@ -1,86 +1,90 @@
 {
   "overview": [
     {
-      "network": "facebook",
+      "id": "o-001",
+      "network": "Facebook",
       "user": "@nathanf",
-      "followers": 1987,
+      "audienceType": "followers",
+      "audience": 1987,
       "today": 12,
       "isUp": true
     },
     {
-      "network": "twitter",
+      "id": "o-002",
+      "network": "Twitter",
       "user": "@nathanf",
-      "followers": 1044,
+      "audienceType": "followers",
+      "audience": 1044,
       "today": 99,
       "isUp": true
     },
     {
-      "network": "instagram",
+      "id": "o-003",
+      "network": "Instagram",
       "user": "@realnathanf",
-      "followers": 11000,
+      "audienceType": "followers",
+      "audience": 11000,
       "today": 1099,
       "isUp": true
     },
     {
-      "network": "youtube",
+      "id": "o-004",
+      "network": "YouTube",
       "user": "Nathan F.",
-      "followers": 8239,
+      "audienceType": "subscribers",
+      "audience": 8239,
       "today": 144,
       "isUp": false
     }
   ],
   "overview-today": [
     {
-      "network": "facebook",
-      "page-Views": {
-        "views": "87",
-        "porcentage": 3,
-        "isUp": true
-      },
-      "likes": {
-        "number": 52,
-        "porcentage": 3,
-        "isUp": true
-      }
+      "id": "ot-001",
+      "network": "Facebook",
+      "statsType": "Page Views",
+      "stats": 87,
+      "porcentage": 3,
+      "isUp": true
     },
     {
-      "network": "instagram",
-      "likes": {
-        "number": 5462,
-        "porcentage": 2257,
-        "isUp": true
-      },
-      "profile-views": {
-        "views": "52k",
-        "porcentage": 1375,
-        "isUp": true
-      }
+      "id": "ot-002",
+      "network": "Facebook",
+      "statsType": "Likes",
+      "stats": 52,
+      "porcentage": 2,
+      "isUp": false
     },
     {
-      "network": "twitter",
-      "retweets": {
-        "number": "117",
-        "porcentage": 303,
-        "isUp": true
-      },
-      "likes": {
-        "number": 507,
-        "porcentage": 553,
-        "isUp": true
-      }
+      "id": "ot-003",
+      "network": "Instagram",
+      "statsType": "Likes",
+      "stats": 5462,
+      "porcentage": 2257,
+      "isUp": true
     },
     {
-      "network": "youtube",
-      "likes": {
-        "number": 107,
-        "porcentage": 19,
-        "isUp": false
-      },
-      "total-views": {
-        "number": "1407",
-        "porcentage": 12,
-        "isUp": false
-      }
+      "id": "ot-004",
+      "network": "Instagram",
+      "statsType": "Profile Views",
+      "stats": 52000,
+      "porcentage": 1357,
+      "isUp": true
+    },
+    {
+      "id": "ot-005",
+      "network": "Twitter",
+      "statsType": "Retweets",
+      "stats": 117,
+      "porcentage": 303,
+      "isUp": true
+    },
+    {
+      "id": "ot-006",
+      "network": "Twitter",
+      "statsType": "Likes",
+      "stats": 507,
+      "porcentage": 553,
+      "isUp": true
     }
   ]
 }

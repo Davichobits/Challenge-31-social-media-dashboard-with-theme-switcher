@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class',
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -23,7 +24,8 @@ export default {
         "Dark-Grayish-Blue": "hsl(228, 12%, 44%)",
       },
       backgroundImage:{
-        "Toggle-Linear-Gradient": "linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%))",
+        "Toggle-Gradient": "linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%))",
+        "Instagram": "linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%))",
       },
       fontFamily:{
         Inter: ['Inter']
