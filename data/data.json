@@ -85,6 +85,22 @@
       "stats": 507,
       "porcentage": 553,
       "isUp": true
+    },
+    {
+      "id": "ot-007",
+      "network": "YouTube",
+      "statsType": "Likes",
+      "stats": 107,
+      "porcentage": 19,
+      "isUp": false
+    },
+    {
+      "id": "ot-008",
+      "network": "YouTube",
+      "statsType": "Total Views",
+      "stats": 1407,
+      "porcentage": 12,
+      "isUp": false
     }
   ]
 }
