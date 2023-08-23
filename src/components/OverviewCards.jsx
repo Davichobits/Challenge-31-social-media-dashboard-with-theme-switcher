@@ -22,7 +22,7 @@ export const OverviewCard = ({user, network, audienceType, audience, today, isUp
   }
 
   return (
-    <article className='rounded-[5px] text-center w-[326px] h-[216px] mx-auto bg-Light-Grayish-Blue dark:bg-Dark-Desaturated-Blue mb-4 overflow-hidden cursor-pointer hover:brightness-95 hover:dark:brightness-125'>
+    <article className='rounded-[5px] text-center w-[326px] h-[216px] mx-auto bg-Light-Grayish-Blue dark:bg-Dark-Desaturated-Blue mb-4 overflow-hidden cursor-pointer hover:brightness-95 hover:dark:brightness-125 tablet:w-[255px]'>
       <div className={`w-full h-[4px] ${networkColors[network]} mb-8`}></div>
       <div className='flex items-center place-content-center gap-2 mb-[28px]'>
         <img src={networkLogos[network]} alt="network-logo" />
@@ -41,7 +41,7 @@ export const OverviewCard = ({user, network, audienceType, audience, today, isUp
 export const OverviewTodayCard = ({network, statsType, stats, porcentage, isUp}) => {
 
   return (
-    <article className='bg-Light-Grayish-Blue w-[326px] h-[125px] mb-4 mx-auto rounded-[5px] p-[27px] pr-[31px] pb-[19px] pl-6 cursor-pointer hover:brightness-95 dark:bg-Dark-Desaturated-Blue hover:dark:brightness-125'>
+    <article className='bg-Light-Grayish-Blue w-[326px] h-[125px] mb-4 mx-auto rounded-[5px] p-[27px] pr-[31px] pb-[19px] pl-6 cursor-pointer hover:brightness-95 dark:bg-Dark-Desaturated-Blue hover:dark:brightness-125 tablet:w-[255px]'>
       <div className='flex place-content-between mb-[21px]'>
         <p className='text-Dark-Grayish-Blue '>{statsType}</p>
         <img src={networkLogos[network]} alt="" />

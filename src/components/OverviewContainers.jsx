@@ -11,7 +11,7 @@ const converNumbertoK = (number) => {
 
 export const OverviewContainer = () => {
   return (
-    <section className="mx-6 absolute top-[191px] left-0 right-0 flex flex-wrap">
+    <section className="absolute top-[191px] tablet:top-[140px] desktop:top-[160px] left-0 right-0 flex gap-[30px] px-4 desktop:px-0 flex-wrap max-w-[1140px] mx-auto">
         {
           data.overview.map(object => 
             <OverviewCard
@@ -31,9 +31,9 @@ export const OverviewContainer = () => {
 
 export const OverviewTodayContainer = () => {
   return (
-    <section className='mx-6'>
-    <h2 className="text-2xl font-bold mb-[27px] text-Dark-Grayish-Blue">Overview - Today</h2>
-    <div className=" flex flex-wrap"> 
+    <section className='max-w-[1140px] mx-auto'>
+    <h2 className="text-2xl font-bold mb-[27px] text-Dark-Grayish-Blue ml-8 dark:text-White tablet:ml-14 desktop:ml-0">Overview - Today</h2>
+    <div className="flex flex-wrap gap-[30px] px-4 desktop:px-0"> 
       {
         data['overview-today'].map(object => 
           <OverviewTodayCard

@@ -29,6 +29,10 @@ export default {
       },
       fontFamily:{
         Inter: ['Inter']
+      },
+      screens:{
+        'tablet':'725px',
+        'desktop': '1175px'
       }
     },
   },
