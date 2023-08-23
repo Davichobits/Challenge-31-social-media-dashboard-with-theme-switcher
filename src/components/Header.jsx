@@ -1,9 +1,16 @@
 import { useState, useEffect } from "react"
 
+
 export const Header = () => {
-
-  const [dark, setDark] = useState(false)
-
+  
+  let initialDarkMode =  JSON.parse(localStorage.getItem('dark'))
+  
+  if(!initialDarkMode){
+    initialDarkMode = false
+  }
+  console.log(initialDarkMode)
+  const [dark, setDark] = useState(initialDarkMode)
+  
   const handleClick = () => {
     setDark(!dark)
   }
@@ -25,8 +32,9 @@ export const Header = () => {
       <hr className="mb-[19px]" />
       <div className="flex place-content-between ">
         <p className="text-Dark-Grayish-Blue font-bold">Dark Mode</p>
+
         <label className="relative w-12 h-6  rounded-full cursor-pointer p-[3px] overflow-hidden">
-          <input onClick={handleClick} className="peer sr-only" type="checkbox" />
+          <input onClick={handleClick} className="peer sr-only" type="checkbox" defaultChecked={dark} />
           <div className="bg-Toggle peer-checked:bg-Toggle-Gradient w-full h-full absolute top-0 left-0"></div>
           <div className="w-[18px] h-[18px] rounded-full bg-Light-Grayish-Blue dark:bg-Very-Dark-Blue-Top peer-checked:translate-x-[24px] transition-all absolute"></div>
         </label> 
